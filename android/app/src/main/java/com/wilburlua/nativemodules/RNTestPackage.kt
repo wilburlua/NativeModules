@@ -1,4 +1,4 @@
-package com.wilburlua.NativeModules
+package com.wilburlua.nativemodules
 import android.view.View
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

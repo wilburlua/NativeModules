@@ -1,4 +1,4 @@
-package com.wilburlua.NativeModules.newarchitecture.components;
+package com.wilburlua.nativemodules.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

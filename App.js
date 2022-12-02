@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import { NativeModules, Alert } from 'react-native'
 const { RNTestModule } = NativeModules
@@ -7,9 +7,14 @@ const { RNTestModule } = NativeModules
 export default function App() {
 
   //Somewhere in your application
-  RNTestModule.logMessage("RNTestModule", "Hello World!").then(msg => {
+  if (Platform.OS == 'ios') {
+      RNTestModule.logMessage("RNTestModule", "Hello World!").then(msg => {
     Alert.alert("Invoke RNTestModule", `${msg}`)
   })
+  } else if (Platform.OS == 'android') {
+      RNTestModule.logMessage()
+  }
+
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>

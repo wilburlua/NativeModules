@@ -1,4 +1,4 @@
-package com.wilburlua.NativeModules.newarchitecture.modules;
+package com.wilburlua.nativemodules.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

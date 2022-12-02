@@ -1,4 +1,4 @@
-package com.wilburlua.NativeModules.newarchitecture;
+package com.wilburlua.nativemodules.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -16,13 +16,12 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.UIManager;
 import com.facebook.react.fabric.ComponentFactory;
 import com.facebook.react.fabric.CoreComponentsRegistry;
-import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.wilburlua.NativeModules.BuildConfig;
-import com.wilburlua.NativeModules.newarchitecture.components.MainComponentsRegistry;
-import com.wilburlua.NativeModules.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.wilburlua.nativemodules.BuildConfig;
+import com.wilburlua.nativemodules.newarchitecture.components.MainComponentsRegistry;
+import com.wilburlua.nativemodules.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

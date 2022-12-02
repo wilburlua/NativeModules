@@ -1,4 +1,4 @@
-package com.wilburlua.NativeModules;
+package com.wilburlua.nativemodules;
 
 import android.os.Build;
 import android.os.Bundle;
